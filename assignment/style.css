@@ -16,13 +16,19 @@ body {
 p {
   color: #f5f5f5;
   font-style: italic;
+  padding: 0 10px 0 10px;
+  text-align: center;
 }
 /* Put a border around your image */
-img {
+#couch-pic {
   width: 80%;
   display: block;
-  margin: auto;
+  margin: 20px auto;
   border: 10px solid cyan;
   border-radius: 8px;
+  filter: drop-shadow(2px 3px 2px gray);
 }
 /* Change the font-family of your list */
+#facts-list {
+  font-family: sans-serif;
+}
